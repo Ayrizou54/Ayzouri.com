@@ -202,14 +202,19 @@ header {
     font-weight: 800;
     margin-top: 10px;
 }
-.Voir-plus {
-    text-decoration: none;
-    color: #3a6cf4;
+.flèche{
+    position: fixed;
+    left: 96%;
+    top: 90%;
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    pointer-events: none;
+    opacity: 0;
+    border-radius: 10px;
+} 
 
-}
-.Voir-plus:hover {
-    color: aqua;
-}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
