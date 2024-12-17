@@ -11,7 +11,7 @@
 }
 header {
     position: fixed;
-    background-color: #111010;
+    background-color: transparent;
     top: 0%;
     padding: 15px;
     width: 100%;
@@ -27,7 +27,7 @@ header {
 
 .logo {
     text-decoration: none;
-    color: #32bfee;
+    color: blue;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.4em;
@@ -45,7 +45,7 @@ header {
 }
 
 .navigation a{
-    color: #32bfee;
+    color: blue;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: 600;
