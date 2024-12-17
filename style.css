@@ -11,7 +11,7 @@
 }
 header {
     position: fixed;
-    background-color: #111010;
+    background-color: transparent;
     top: 0%;
     padding: 15px;
     width: 100%;
@@ -26,7 +26,7 @@ header {
 
 .logo {
     text-decoration: none;
-    color: #32bfee;
+    color: black;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.4em;
@@ -40,10 +40,10 @@ header {
  }
 
 .logo span {
-    color: white;
+    color: aqua;
 }
 .navigation a{
-    color: #32bfee;
+    color: black;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: 600;
@@ -53,7 +53,7 @@ header {
 }
 
 .navigation a:hover{
-    color: white;
+    color: aqua;
 }
 
 .section {
