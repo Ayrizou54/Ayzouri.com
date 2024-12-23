@@ -23,8 +23,6 @@ header {
     transition: 0.5s ease;
          
 }
-
-
 .logo {
     text-decoration: none;
     color: blue;
@@ -33,17 +31,14 @@ header {
     font-size: 1.4em;
     align-items: center;
 }
-
 .logo img{
     position: absolute;
     margin-top: 5px;
     margin-left: 5px;  
  }
-
 .logo span {
     color: white;
 }
-
 .navigation a{
     color: blue;
     text-decoration: none;
@@ -53,14 +48,11 @@ header {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 .navigation a:hover{
     color: white;
 }
-
 .section {
     padding: 100px 200px;
-    
 }
 
 .main{
@@ -73,15 +65,12 @@ header {
     background-position: center;
     background-attachment: fixed;
 }
-
 .main div h2 {
     color: black;
     font-size: 2em;
     font-weight: 500;
     margin: 10px;
-
 }
-
 .main-btn {
     color: #fff;
     background-color: #484747;
@@ -95,12 +84,10 @@ header {
     margin-bottom: 40px;
     transition: 0.7s ease;
     margin: 20px;
-
 }
 .main-btn:hover{
     background-color: rgb(140, 144, 144);
     transform: scale(1.1);
-
 }
 .title {
     display: flex;
@@ -110,13 +97,11 @@ header {
     color: #000;
     height: 60px;
 }
-
 h1{
     color: red;
     margin: 20px;
     font-size: 2.5em;
 }
-
 h2{
     margin: 20px;
 }
