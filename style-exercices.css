@@ -6,7 +6,6 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-         
 }
 header {
     position: fixed;
@@ -20,7 +19,6 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.5s ease;
-         
 }
 
 .logo {
@@ -54,9 +52,7 @@ header {
 .section {
     padding: 100px 200px;
 }
- 
-
-.main{
+ .main{
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -65,14 +61,12 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
 }
 .main div h2{
     color: black;
     font-size: 2em;
     margin: 10px;
     font-weight: 500;
-    
 }
 
 .main-btn {
@@ -88,15 +82,12 @@ header {
     margin-bottom: 40px;
     transition: 0.7s ease;
     margin: 20px;
-
 }
 .main-btn:hover{
     background-color: rgb(237, 211, 9);
     transform: scale(1.1);
     color: #000;
-
 }
-
 .title {
     display: flex;
     justify-content: center;
@@ -104,7 +95,6 @@ header {
     margin: 100px;
     color: #000;
     height: 60px;
-       
 }
 p{
     margin: 20px;
