@@ -6,8 +6,6 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
-    
 }
 header {
     position: fixed;
@@ -21,9 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.5s ease;
-         
 }
-
 .logo {
     text-decoration: none;
     color: black;
@@ -36,7 +32,6 @@ header {
     position: absolute;
     margin-top: 5px;
     margin-left: 5px;
-    
  }
 
 .logo span {
@@ -58,8 +53,6 @@ header {
 
 .section {
     padding: 100px 200px;
-    
-
 }
 .main{
     width: 100%;
@@ -76,7 +69,6 @@ header {
     font-size: 2em;
     font-weight: 600;
     margin: 20px;
-
 }
 
 .main h2 span {
@@ -138,7 +130,6 @@ header {
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
-
 }
 .card:hover {
     transform: scale(1.1);
@@ -214,8 +205,6 @@ header {
     opacity: 0;
     border-radius: 10px;
 } 
-
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(#d7efee, #e4e7e7);
@@ -225,7 +214,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 .contact-left{
     display: flex;
@@ -238,7 +226,6 @@ body{
     color: blue;
     font-size: 40px;
     margin-bottom: 5px;
-
 }
 .contact-lenft-title hr{
     border: none;
@@ -299,7 +286,6 @@ body{
         display: none;
     }
 }
-
 .footer {
     background-color: #111010;
     color: #32bfee;
@@ -311,7 +297,6 @@ body{
     font-size: 1.1em;
     font-weight: 600;
 }
-
 .footer-title span {
     color: white;
 }
