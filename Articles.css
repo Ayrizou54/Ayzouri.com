@@ -114,15 +114,12 @@ header {
 h2{
     margin: 20px;
 }
-
 h2 a{
     color: blue;
     margin: 20px;
 }
 h1 img{
-    
     margin: 10px;
-        
 }
 *,::before, ::after {
     box-sizing: border-box;
@@ -334,7 +331,6 @@ img {
     font-size: 1.1em;
     font-weight: 600;
 }
-
 .footer-title span {
     color: white;
 }
@@ -342,7 +338,6 @@ img {
     font-size: 1.2em;
     padding: 0 12px 0 ;
     color: #fff;
-   
 }
 .footer .social-icons a:hover{
     color: #6ad7d3;
