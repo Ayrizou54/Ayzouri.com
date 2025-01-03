@@ -91,10 +91,10 @@ header {
     color: #fff;
     background-color: #0c47ea;
     text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 400;
     display: inline-block;
-    padding: 0.9375em 2.1875em;
+    padding: 0.5375em 1.8775em;
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 40px;
@@ -104,7 +104,7 @@ header {
 }
 .main-btn:hover{
     color: #000;
-    background-color: white;
+    background-color: rgb(176,144,244);
     transform: scale(1.1);
 
 }
