@@ -111,11 +111,11 @@ header {
 .title {
     display: flex;
     justify-content: center;
-    color: blue;
+    color: red;
     font-size: 2.2em;
     font-weight: 800;
-    margin-bottom: 30px;
-
+    margin-bottom: 60px;
+    text-decoration:underline;
 }
 .content {
     display: flex;
