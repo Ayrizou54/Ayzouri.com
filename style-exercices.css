@@ -93,8 +93,9 @@ header {
     justify-content: center;
     font-size: 2.5em; 
     margin: 100px;
-    color: #000;
+    color: red;
     height: 60px;
+    text-decoration:underline;
 }
 p{
     margin: 20px;
