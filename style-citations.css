@@ -156,10 +156,11 @@ body{
 }
 .container .card{
     position: relative;
-    width: 300px;
+    width: 280px;
     padding: 20px;
     margin: 20px;
     background: #79b1ed;
+    border-radius: 10px;
 }
 .container .card::before{
     content: '';
