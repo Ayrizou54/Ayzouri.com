@@ -20,7 +20,6 @@ header {
     align-items: center;
     transition: 0.5s ease;
     }
-
 .logo {
     text-decoration: none;
     color: blue;
@@ -49,7 +48,6 @@ header {
 .navigation a:hover{
     color: white;
 }
-
 .main{
     width: 100%;
     min-height: 100vh;
@@ -75,7 +73,7 @@ header {
     margin: 40px;
 }
 .main h3 {
-    color: black;
+    color: white;
     font-size: 2em;
     font-weight: 600;
     letter-spacing: 4px;
@@ -123,10 +121,8 @@ h2 a{
     margin: 20px;
 }
 h1 img{
-    
     margin: 10px;
 }
-
 body{
    background: #a7d1ee;
    align-items: center;
@@ -145,7 +141,6 @@ body{
     opacity: 0;
     border-radius: 10px;
 }  
-
 .container{
     position: relative;
     display: flex;
@@ -159,7 +154,7 @@ body{
     width: 280px;
     padding: 20px;
     margin: 20px;
-    background: #79b1ed;
+    background: white;
     border-radius: 10px;
 }
 .container .card::before{
@@ -169,13 +164,13 @@ body{
     right: 0;
     border: 20px solid transparent;
     border: 20px solid #fff;
-    border-top: 20px solid aqua;
-    border-right: 20px solid aqua;
+    border-top: 20px solid rgb(144, 160, 232);
+    border-right: 20px solid rgb(144, 160, 232);
 }
 
 .container .card.active::before{
-    border-top: 20px solid green;
-    border-right: 20px solid green;
+    border-top: 20px solid rgb(182, 239, 182);
+    border-right: 20px solid rgb(182, 239, 182);
 }
 .container .card .icon{
     margin-bottom: 10px;
