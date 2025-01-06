@@ -167,7 +167,6 @@ body{
     border-top: 20px solid rgb(144, 160, 232);
     border-right: 20px solid rgb(144, 160, 232);
 }
-
 .container .card.active::before{
     border-top: 20px solid rgb(182, 239, 182);
     border-right: 20px solid rgb(182, 239, 182);
@@ -177,7 +176,7 @@ body{
 }
 .container .card .icon img{
     max-width: 90px;
-    border-radius: 10px
+    border-radius: 10px;
 }
 .container .card .content{
     position: relative;
@@ -194,7 +193,7 @@ body{
     left: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(transparent,#79b1ed);
+    background: linear-gradient(transparent,#bdd8f5);
 }
 .container .card.active .content::before{
     display: none;
@@ -213,7 +212,7 @@ body{
 .container .card .plus{
     position: relative;
     padding: 10px 15px;
-    background: aqua;
+    background: rgb(144, 160, 232);
     margin-top: 15px;
     display: inline-block;
     cursor: pointer;
@@ -222,10 +221,11 @@ body{
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 14px;
+    border-radius:10px;
 }
 .container .card.active .plus{
-    background: green;
-    color: white;
+    background: rgb(182, 239, 182);
+    color: balck;
 }
 .container .card .plus::before{
     content: 'Lire Plus';
