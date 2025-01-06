@@ -207,7 +207,6 @@ body{
 .container .card .content p{
     font-weight: 300;
     color: black;
-
 }
 .container .card .plus{
     position: relative;
@@ -233,13 +232,11 @@ body{
 .container .card.active .plus::before{
     content: 'Lire Moins';
 }
-  
-.contact-container{
+  .contact-container{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 .contact-left{
     display: flex;
@@ -252,7 +249,6 @@ body{
     color: blue;
     font-size: 40px;
     margin-bottom: 5px;
-
 }
 .contact-lenft-title hr{
     border: none;
@@ -279,7 +275,6 @@ body{
 }
 .contact-inputs:focus{
     border: 2px solid blue;
-
 }
 .contact-inputs::placeholder{
     color: black;
@@ -324,7 +319,6 @@ body{
     font-size: 1.1em;
     font-weight: 600;
 }
-
 .footer-title span {
     color: white;
 }
