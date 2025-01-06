@@ -182,6 +182,7 @@ body{
 }
 .container .card .icon img{
     max-width: 90px;
+    border-radius: 10px
 }
 .container .card .content{
     position: relative;
