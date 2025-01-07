@@ -131,7 +131,7 @@ h1 img{
     margin: 10px;
 }
 body{
-   background: #a7d1ee;
+   background: #aac2eb;
    align-items: center;
    min-height: 100vh;
    justify-content: center;
@@ -252,6 +252,7 @@ img {
     object-fit: cover;
     border-radius: 10px;
     margin: 0 20px 5px 0;
+    float:left;
 }
   .contact-container{
     height: 100vh;
