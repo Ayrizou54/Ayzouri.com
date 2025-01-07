@@ -232,6 +232,22 @@ body{
 .container .card.active .plus::before{
     content: 'Lire Moins';
 }
+.container1{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0;
+}
   .contact-container{
     height: 100vh;
     display: flex;
