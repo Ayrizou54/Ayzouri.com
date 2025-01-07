@@ -6,7 +6,6 @@ font-display : block;
 src : url(../webfonts/fa-brands-400.eot);
 src : url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.woff) format("woff"), url(../webfonts/fa-brands-400.ttf) format("truetype"), url(../webfonts/fa-brands-400.svg#fontawesome) format("svg");
 }
-
 *{
     font-family: 'Poppins',sans-serif;
     margin: 0;
@@ -348,7 +347,6 @@ img {
     font-size: 1.2em;
     padding: 0 12px 0 ;
     color: #fff;
-   
 }
 .footer .social-icons a:hover{
     color: #6ad7d3;
