@@ -130,6 +130,22 @@ body{
     opacity: 0;
     border-radius: 10px;
 }
+.text{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 20px 5px 0;
+    float: left;
+       
+}
 
 .contact-container{
     height: 100vh;
