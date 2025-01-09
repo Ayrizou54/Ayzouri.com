@@ -105,7 +105,7 @@ header {
     color: red;
     font-size: 2.2em;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     text-decoration:underline;
 }
  h1{
@@ -121,11 +121,6 @@ h2 a{
 }
 h1 img{
     margin: 10px;
-}
-*,::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 body{
     background: #c8e1f3;
@@ -145,101 +140,109 @@ body{
      opacity: 0;
      border-radius: 10px;
  } 
- .container1{
-    max-width: 600px;
+ .container{
+  position: relative;
+    display: flex;
+    justify-content: center;
+    box-align:  center;
+    width: 1500px;
+    flex-wrap: wrap;
+}
+.container .card{
+    position: relative;
+    width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+}
+.container .card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid transparent;
+    border: 20px solid #fff;
+    border-top: 20px solid rgb(144, 160, 232);
+    border-right: 20px solid rgb(144, 160, 232);
+}
+.container .card.active::before{
+    border-top: 20px solid rgb(182, 239, 182);
+    border-right: 20px solid rgb(182, 239, 182);
+}
+.container .card .icon{
+    margin-bottom: 10px;
+}
+.container .card .icon img{
+    max-width: 90px;
+    border-radius: 10px;
+}
+.container .card .content{
+    position: relative;
+    height: 215px;
+    overflow: hidden;
+}
+.container .card.active .content{
+    height: auto;
+}
+.container .card .content::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent,#bdd8f5);
+}
+.container .card.active .content::before{
+    display: none;
+}
+.container .card .content h3{
+    color: #000;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.container .card .content p{
+    font-weight: 300;
+    color: black;
+}
+.container .card .plus{
+    position: relative;
+    padding: 10px 15px;
+    background: rgb(144, 160, 232);
+    margin-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.container .card.active .plus{
+    background: rgb(182, 239, 182);
+    color: black;
+}
+.container .card .plus::before{
+    content: 'Lire Plus';
+}
+.container .card.active .plus::before{
+    content: 'Lire Moins';
+}
+.text{
+    max-width: 800px;
     margin: 0 auto;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-}
-.container1::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-.container1 h2{
-    margin-bottom: 10px;
-}
-.container1 p{
-    line-height: 1.4;
-}
- .container2{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-}
-.container2::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-.container2 h2{
-    margin-bottom: 10px;
-}
-.container2 p{
-    line-height: 1.4;
-}
- .container3{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-}
-.container3::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-.container3 h2{
-    margin-bottom: 10px;
-}
-.container3 p{
-    line-height: 1.4;
-}
- .container4{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-}
-.container4::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-.container4 h2{
-    margin-bottom: 10px;
-}
-.container4 p{
-    line-height: 1.4;
-}
- .container5{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-}
-.container5::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-.container5 h2{
-    margin-bottom: 10px;
-}
-.container5 p{
-    line-height: 1.4;
 }
 img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 10%;
     float: left;
     shape-outside: margin-box;
     margin: 0 20px 5px 0;
@@ -299,12 +302,12 @@ img {
     color: #fff;
     gap: 10px;
     border: none;
-    border-radius: 30px;
-    background: linear-gradient(270deg,#9ce0eb,#0a17cf);
+    border-radius: 50px;
+    background: linear-gradient(270deg,#6ad7d3,#0a17cf);
     cursor: pointer;
 }
 .contact-left button:hover{
-    color: yellow;
+    color: black;
 }
 .contact-left button img{
     height: 15px;
