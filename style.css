@@ -268,7 +268,7 @@ body{
     cursor: pointer;
 }
 .contact-left button:hover{
-    color: yellow;
+    color: black;
 }
 .contact-left button img{
     height: 15px;
