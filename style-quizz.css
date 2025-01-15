@@ -124,12 +124,36 @@ body{
     opacity: 0;
     border-radius: 10px;
 }
-.text{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 60px;
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-align:  center;
+    width: 1500px;
+    flex-wrap: wrap;
+}
+.container .card{
+    position: relative; 
+    width: 1200px;  
+    padding: 20px;
+    margin: 20px;
+    background: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+.container .card .content{
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.container .card .content h3{
+    color: #000;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.container .card .content p{
+    font-weight: 300;
+    color: black;
 }
 img {
     width: 100px;
