@@ -152,7 +152,6 @@ body{
     display: flex;
     justify-content: center;
     box-align:  center;
-    width: 1500px;
     flex-wrap: wrap;
 }
 .container .card{
