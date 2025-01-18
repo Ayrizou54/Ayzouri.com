@@ -120,22 +120,20 @@ body{
 } 
 .flèche{
     position: fixed;
-    left: 96%;
+    left: 95%;
     top: 90%;
-    width: 30px;
+    width: 40px;
     height: 40px;
     cursor: pointer;
     transition: all 0.6s ease;
     pointer-events: none;
     opacity: 0;
-    border-radius: 10px;
 }
 .contact-container{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 .contact-left{
     display: flex;
@@ -175,7 +173,6 @@ body{
 }
 .contact-inputs:focus{
     border: 2px solid blue;
-
 }
 .contact-inputs::placeholder{
     color: black;
