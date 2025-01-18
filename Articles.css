@@ -154,6 +154,7 @@ body{
     margin: 20px;
     background: white;
     border-radius: 10px;
+     box-shadow: 8px 8px 20px rgba(8, 1, 82, 0.3);
 }
 .container .card::before{
     content: '';
@@ -229,13 +230,6 @@ body{
 }
 .container .card.active .plus::before{
     content: 'Lire Moins';
-}
-.text{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }
 img {
     width: 100px;
