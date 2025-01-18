@@ -194,15 +194,14 @@ body{
 }
 .flèche{
     position: fixed;
-    left: 96%;
+    left: 95%;
     top: 90%;
-    width: 30px;
+    width: 40px;
     height: 40px;
     cursor: pointer;
     transition: all 0.6s ease;
     pointer-events: none;
     opacity: 0;
-    border-radius: 10px;
 }   
 .contact-container{
     height: 100vh;
@@ -214,7 +213,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 20px;
+    gap: 18px;
 }
 .contact-left-title h2{
     font-weight: 600;
