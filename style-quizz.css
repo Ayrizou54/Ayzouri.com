@@ -138,6 +138,7 @@ body{
     margin: 20px;
     background: white;
     border-radius: 10px;
+     box-shadow: 8px 8px 20px rgba(8, 1, 82, 0.3);
 }
 .container .card .content{
     position: relative;
@@ -230,7 +231,8 @@ img {
     height: 15px;
 }
 .contact-right img{
-    width: 500px;
+   width: 400px;
+    height: 400px;
 }
 @media (max-width:800px){
     .contact-inputs{
