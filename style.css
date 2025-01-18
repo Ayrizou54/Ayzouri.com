@@ -126,7 +126,7 @@ header {
 .card {
     background-color: #fff;
     width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
@@ -147,10 +147,9 @@ header {
     font-size: 1.5em;
     font-weight: 700;
     margin: 10px;
-
 }
 .projects {
-    background-color: #eed2d2;
+    background-color: #e4e7e7;
 }
 .projects .content{
     margin-top: 30px;
@@ -164,22 +163,20 @@ header {
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
+    box-shadow: 8px 8px 20px rgba(8, 1, 82, 0.3);
 }
 .project-card:hover {
     transform: scale(1.1);
 }
-
 .project-card:hover .project-image {
     opacity: 0.9;
 }
-
 .project-image img{
     width: 100%;
 }
 .project-info {
     padding: 1em;   
 }
-
 .project-category {
     display: 0.8em;
     color: #000;
@@ -190,6 +187,10 @@ header {
     text-transform: uppercase;
     font-weight: 800;
     margin-top: 10px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#d7efee, #e4e7e7);
 }
 .flèche{
     position: fixed;
@@ -202,11 +203,7 @@ header {
     pointer-events: none;
     opacity: 0;
     border-radius: 10px;
-} 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(#d7efee, #e4e7e7);
-}    
+}   
 .contact-container{
     height: 100vh;
     display: flex;
@@ -250,7 +247,6 @@ body{
 }
 .contact-inputs:focus{
     border: 2px solid blue;
-
 }
 .contact-inputs::placeholder{
     color: black;
