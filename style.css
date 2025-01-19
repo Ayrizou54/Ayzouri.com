@@ -65,7 +65,7 @@ header {
     background-attachment: fixed;
 }
 .main h2 {
-    color:#494747;
+    color:black;
     font-size: 1.3em;
     font-weight: 600;
     margin: 20px;
@@ -74,12 +74,12 @@ header {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #494747;
+    color: blue;
     font-size: 1.6em;
     font-weight: 500;
 }
 .main h3 {
-    color: white;
+    color: black;
     font-size:1.3em;
     font-weight: 700;
     letter-spacing: 1px;
