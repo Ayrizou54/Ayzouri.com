@@ -178,7 +178,6 @@ header {
     padding: 1em;   
 }
 .project-category {
-    display: 0.8em;
     color: #000;
 }
 .project-title {
@@ -235,7 +234,7 @@ body{
     border:none;
     outline: none;
     padding-left: 25px;
-    font-weight: 500px;
+    font-weight: 500;
     color: black;
     border-radius: 50px;
 }
