@@ -6,6 +6,9 @@ font-display : block;
 src : url(../webfonts/fa-brands-400.eot);
 src : url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.woff) format("woff"), url(../webfonts/fa-brands-400.ttf) format("truetype"), url(../webfonts/fa-brands-400.svg#fontawesome) format("svg");
 }
+.fab, .far {
+    font-weight : 400;
+    }
 *{
     font-family: 'Poppins',sans-serif;
     margin: 0;
@@ -84,7 +87,6 @@ header {
     margin-bottom: 40px;
     transition: 0.7s ease;
     margin: 20px;
-
 }
 .main-btn:hover{
     background-color: rgb(140, 144, 144);
@@ -214,7 +216,6 @@ img {
 }
 .contact-inputs:focus{
     border: 2px solid blue;
-
 }
 .contact-inputs::placeholder{
     color: black;
@@ -261,7 +262,6 @@ img {
     font-size: 1.1em;
     font-weight: 600;
 }
-
 .footer-title span {
     color: white;
 }
@@ -306,8 +306,7 @@ img {
     }
     .main-content h3{
         font-size: 1.4em;
-    }
-    
+    }   
 }
 @media (max-width:300px){
     body{
