@@ -1,18 +1,18 @@
 @font-face {
-font-family : "Font Awesome 5 Brands";
-font-style : normal;
-font-weight : 400;
-font-display : block;
-src : url(../webfonts/fa-brands-400.eot);
-src : url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.woff) format("woff"), url(../webfonts/fa-brands-400.ttf) format("truetype"), url(../webfonts/fa-brands-400.svg#fontawesome) format("svg");
-}
-.fab, .far {
+    font-family : "Font Awesome 5 Free";
+    font-style : normal;
     font-weight : 400;
-    {
+    font-display : block;
+    src : url(../webfonts/fa-regular-400.eot);
+    src : url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-regular-400.woff2) format("woff2"), url(../webfonts/fa-regular-400.woff) format("woff"), url(../webfonts/fa-regular-400.ttf) format("truetype"), url(../webfonts/fa-regular-400.svg#fontawesome) format("svg");
+    }
+    .fab, .far {
+    font-weight : 400;
+    }
 *{
     font-family: 'Poppins',sans-serif;
     margin: 0;
-    padding: 0; 
+    padding: 0;   
 }
 header {
     position: fixed;
@@ -25,7 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     transition: 0.5s ease;
-    }
+}
 .logo {
     text-decoration: none;
     color: blue;
@@ -73,7 +73,7 @@ header {
 .main h2 span {
     display: inline-block;
     margin-top: 20px;
-    color: #000;
+    color: black;
     font-size: 3em;
     font-weight: 600;
     margin: 40px;
@@ -113,12 +113,12 @@ header {
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
-    text-decoration:underline;
+    text-decoration: underline;
 }
  h1{
     color: #000;
     margin: 20px; 
-     font-size: 2em; 
+    font-size: 2em; 
 }
 h2{
     margin: 20px;
@@ -128,11 +128,11 @@ h2 a{
     margin: 20px;
 }
 body{
-   background: #aac2eb;
-   align-items: center;
-   min-height: 100vh;
-   justify-content: center;
-  }
+    background: #aac2eb;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+   } 
   .flèche {
     position: fixed;
     left: 95%;
@@ -152,8 +152,8 @@ body{
     flex-wrap: wrap;
 }
 .container .card{
-    position: relative;
-    width: 1000px;
+    position: relative; 
+    width: 1000px;  
     padding: 20px;
     margin: 20px;
     background: white;
@@ -223,7 +223,7 @@ body{
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 14px;
-    border-radius:10px;
+    border-radius: 10px;
 }
 .container .card.active .plus{
     background: rgb(182, 239, 182);
@@ -240,20 +240,21 @@ body{
     margin: 0 auto;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 8px 8px 20px rgba(12,2,123,0.3);
+    box-shadow: 8px 8px 20px rgba(12, 2, 123, 0.3);
 }
 img {
     width: 100px;
     height: 100px;
     border-radius: 10px;
     margin: 0 20px 5px 0;
-    float:left;
+    float: left;   
 }
-  .contact-container{
+.contact-container{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 }
 .contact-left{
     display: flex;
@@ -292,6 +293,7 @@ img {
 }
 .contact-inputs:focus{
     border: 2px solid blue;
+
 }
 .contact-inputs::placeholder{
     color: black;
@@ -353,7 +355,7 @@ img {
         flex-basis: 100%;
     }
 }
-@media  (max-width:1023px){
+  @media  (max-width:1023px){
     header{
         padding: 12px 20px;
     }
@@ -387,6 +389,7 @@ img {
     .main-content h3{
         font-size: 1.4em;
     }
+    
 }
 @media (max-width:300px){
     body{
