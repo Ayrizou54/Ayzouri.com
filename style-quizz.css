@@ -1,12 +1,12 @@
 @font-face {
-font-family : "Font Awesome 5 Brands";
-font-style : normal;
-font-weight : 400;
-font-display : block;
-src : url(../webfonts/fa-brands-400.eot);
-src : url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.woff) format("woff"), url(../webfonts/fa-brands-400.ttf) format("truetype"), url(../webfonts/fa-brands-400.svg#fontawesome) format("svg");
-}
-.fab, .far {
+    font-family : "Font Awesome 5 Free";
+    font-style : normal;
+    font-weight : 400;
+    font-display : block;
+    src : url(../webfonts/fa-regular-400.eot);
+    src : url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-regular-400.woff2) format("woff2"), url(../webfonts/fa-regular-400.woff) format("woff"), url(../webfonts/fa-regular-400.ttf) format("truetype"), url(../webfonts/fa-regular-400.svg#fontawesome) format("svg");
+    }
+    .fab, .far {
     font-weight : 400;
     }
 *{
@@ -136,7 +136,6 @@ body{
     display: flex;
     justify-content: center;
     box-align:  center;
-    width: 1500px;
     flex-wrap: wrap;
 }
 .container .card{
@@ -146,7 +145,7 @@ body{
     margin: 20px;
     background: white;
     border-radius: 10px;
-     box-shadow: 8px 8px 20px rgba(12, 2, 123, 0.3);
+    box-shadow: 8px 8px 20px rgba(12, 2, 123, 0.3);
 }
 .container .card::before{
     content: '';
@@ -168,13 +167,13 @@ body{
 .container .card .icon img{
     max-width: 90px;
     border-radius: 10px;
-}    
+}
 .container .card .content{
     position: relative;
     height: 200px;
     overflow: hidden;
 }
-    container .card.active .content{
+.container .card.active .content{
     height: auto;
 }
 .container .card .content::before{
@@ -199,7 +198,7 @@ body{
     font-weight: 300;
     color: black;
 }
-    container .card .plus{
+.container .card .plus{
     position: relative;
     padding: 10px 15px;
     background: rgb(144, 160, 232);
@@ -223,7 +222,6 @@ body{
 .container .card.active .plus::before{
     content: 'Lire Moins';
 }
-
 img {
     width: 100px;
     height: 100px;
@@ -275,6 +273,7 @@ img {
 }
 .contact-inputs:focus{
     border: 2px solid blue;
+
 }
 .contact-inputs::placeholder{
     color: black;
@@ -298,7 +297,7 @@ img {
     height: 15px;
 }
 .contact-right img{
-   width: 400px;
+    width: 400px;
     height: 400px;
 }
 @media (max-width:800px){
@@ -309,7 +308,6 @@ img {
         display: none;
     }
 }
-
 .footer {
     background-color: #111010;
     color: #32bfee;
@@ -321,6 +319,7 @@ img {
     font-size: 1.1em;
     font-weight: 600;
 }
+
 .footer-title span {
     color: white;
 }
@@ -331,6 +330,11 @@ img {
 }
 .footer .social-icons a:hover{
     color: #6ad7d3;
+}
+@media screen and (max-width: 400px){
+    .container .content{
+        flex-basis: 100%;
+    }
 }
 @media  (max-width:1023px){
     header{
@@ -365,7 +369,8 @@ img {
     }
     .main-content h3{
         font-size: 1.4em;
-    }   
+    }
+    
 }
 @media (max-width:300px){
     body{
