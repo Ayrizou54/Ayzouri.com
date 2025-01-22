@@ -50,7 +50,6 @@ header {
     font-size: 1.5em;
     font-weight: 600;
     padding-left: 30px;
-    margin-left: 20px;
     margin-right: 20px;
 }
 .navigation a:hover{
@@ -137,7 +136,7 @@ body{
     min-height: 100vh;
     justify-content: center;
    }
-   .flèche {
+.flèche {
      position: fixed;
      left: 95%;
      top: 90%;
