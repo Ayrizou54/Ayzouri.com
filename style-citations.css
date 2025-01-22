@@ -12,15 +12,12 @@ src : url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url
 *{
     font-family: 'Poppins',sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;    
+    padding: 0; 
 }
 header {
     position: fixed;
     background-color: transparent;
     top: 0%;
-    padding: 15px;
     width: 100%;
     z-index: 1;
     text-align: center;
