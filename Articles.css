@@ -9,7 +9,7 @@ src : url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url
 .fab, .far {
     font-weight : 400;
     }
-   *{ font-family: 'Poppins',sans-serif;
+*{ font-family: 'Poppins',sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -118,7 +118,8 @@ header {
 }
  h1{
     color: #000;
-    margin: 20px;   
+    margin: 20px; 
+     font-size: 2em;
 }
 h2{
     margin: 20px;
@@ -126,9 +127,6 @@ h2{
 h2 a{
     color: blue;
     margin: 20px;
-}
-h1 img{
-    margin: 10px;
 }
 body{
     background: #aac2eb;
@@ -241,10 +239,8 @@ body{
 img {
     width: 100px;
     height: 100px;
-    object-fit: cover;
     border-radius: 10%;
     float: left;
-    shape-outside: margin-box;
     margin: 0 20px 5px 0;
 }
    .contact-container{
