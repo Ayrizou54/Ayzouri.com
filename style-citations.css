@@ -28,7 +28,7 @@ header {
 }
 .logo {
     text-decoration: none;
-    color: blue;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2em;
@@ -43,7 +43,7 @@ header {
     color: black;
 }
 .navigation a{
-    color: blue;
+    color: black;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: 600;
@@ -89,7 +89,7 @@ header {
 }
 .main-btn {
     color: #000;
-    background-color: #e7c47e;
+    background-color: ;blue
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -102,8 +102,8 @@ header {
     margin: 20px;
 }
 .main-btn:hover{
-    color: #fff;
-    background-color: rgb(130, 110, 12);
+    color: blue;
+    background-color: aqua;
     transform: scale(1.1);
 }
 .title {
@@ -121,10 +121,10 @@ header {
     font-size: 2em; 
 }
 h2{
-    margin: 20px;
+    margin: 10px;
 }
 h2 a{
-    color: blue;
+    color: red;
     margin: 20px;
 }
 body{
