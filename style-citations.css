@@ -178,12 +178,12 @@ body{
     margin-bottom: 10px;
 }
 .container .card .icon img{
-    max-width: 90px;
+    max-width: 100px;
     border-radius: 10px;
 }
 .container .card .content{
     position: relative;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
 }
 .container .card.active .content{
