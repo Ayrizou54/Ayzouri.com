@@ -102,7 +102,7 @@ header {
     margin: 20px;
 }
 .main-btn:hover{
-    color: blue;
+    color: black;
     background-color: aqua;
     transform: scale(1.1);
 }
@@ -183,7 +183,7 @@ body{
 }
 .container .card .content{
     position: relative;
-    height: 150px;
+    height: 200px;
     overflow: hidden;
 }
 .container .card.active .content{
