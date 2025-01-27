@@ -74,9 +74,9 @@ header {
 }
 .main h2 {
     color:black;
-    font-size: 1.3em;
-    font-weight: 600;
-    margin: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 30px;
 }
 .main h2 span {
     display: inline-block;
@@ -98,8 +98,8 @@ header {
     color: #fff;
     background-color: #0c47ea;
     text-decoration: none;
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 1.1em;
+    font-weight: 500;
     display: inline-block;
     padding: 0.5375em 1.8775em;
     letter-spacing: 1px;
@@ -109,8 +109,8 @@ header {
     margin: 20px;
 }
 .main-btn:hover{
-    color: #000;
-    background-color: rgb(176,144,244);
+    color: black;
+    background-color: aqua;
     transform: scale(1.1);
 }
 .title {
