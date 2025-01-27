@@ -31,7 +31,7 @@ header {
 }
 .logo {
     text-decoration: none;
-    color: blue;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2em;
@@ -46,7 +46,7 @@ header {
     color:black;
 }
 .navigation a{
-    color: blue;
+    color: black;
     text-decoration: none;
     font-size: 1.5em;
     font-weight: 600;
@@ -72,9 +72,17 @@ header {
     font-weight: 500;
     margin: 20px;
 }
+        .main h2 span {
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+    font-size: 3em;
+    font-weight: 600;
+    margin: 40px;
+}
 .main-btn {
     color: #fff;
-    background-color: #484747;
+    background-color: blue;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -87,14 +95,16 @@ header {
     margin: 20px;
 }
 .main-btn:hover{
-    background-color: rgb(140, 144, 144);
+    background-color: aqua;
     transform: scale(1.1);
+    color: blue;
 }
 .title {
     display: flex;
     justify-content: center;
     font-size: 2.2em;
     color: red;
+    font-weight: 800;
     height: 60px;
     text-decoration: underline;
 }
@@ -104,13 +114,13 @@ h1{
     font-size: 2em;
 }
 h2{
-    margin: 20px;
+    margin: 10px;
 }
 h2 span{
     font-size: 2.5em;
 }
 h2 a{
-    color: #3a6cf4;
+    color: red;
     margin: 20px;
 }
 body{
@@ -164,7 +174,7 @@ body{
     margin-bottom: 10px;
 }
 .container .card .icon img{
-    max-width: 90px;
+    max-width: 100px;
     border-radius: 10px;
 }
 .container .card .content{
