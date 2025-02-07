@@ -1,24 +1,32 @@
 @font-face {
-font-family : "Font Awesome 5 Brands";
-font-style : normal;
-font-weight : 400;
-font-display : block;
-src : url(../webfonts/fa-brands-400.eot);
-src : url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-brands-400.woff2) format("woff2"), url(../webfonts/fa-brands-400.woff) format("woff"), url(../webfonts/fa-brands-400.ttf) format("truetype"), url(../webfonts/fa-brands-400.svg#fontawesome) format("svg");
+    font-family: "Font Awesome 5 Brands";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../webfonts/fa-brands-400.eot);
+    src: url(../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),
+         url(../webfonts/fa-brands-400.woff2) format("woff2"),
+         url(../webfonts/fa-brands-400.woff) format("woff"),
+         url(../webfonts/fa-brands-400.ttf) format("truetype"),
+         url(../webfonts/fa-brands-400.svg#fontawesome) format("svg");
 }
+
 .fab, .far {
-    font-weight : 400;
-    }
-*{ font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;
 }
+
 header {
     position: fixed;
     background-color: transparent;
-    top: 0%;
+    top: 0;
     padding: 15px;
     width: 100%;
     z-index: 1;
@@ -28,6 +36,7 @@ header {
     align-items: center;
     transition: 0.5s ease;
 }
+
 .logo {
     text-decoration: none;
     color: blue;
@@ -36,15 +45,18 @@ header {
     font-size: 2em;
     align-items: center;
 }
-.logo img{
-    position:absolute;
+
+.logo img {
+    position: absolute;
     margin-top: 5px;
     margin-left: 5px;
- }
+}
+
 .logo span {
     color: black;
 }
-.navigation a{
+
+.navigation a {
     color: blue;
     text-decoration: none;
     font-size: 1.5em;
@@ -52,25 +64,29 @@ header {
     padding-left: 30px;
     margin-right: 20px;
 }
-.navigation a:hover{
+
+.navigation a:hover {
     color: black;
 }
-.main{
+
+.main {
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(images/aqua.png) no-repeat;
-    background-size:cover ;
+    background: url(images/aqua.png) no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
 .main h2 {
     color: white;
     font-size: 1.2em;
     font-weight: 500;
     margin: 20px;
 }
+
 .main h2 span {
     display: inline-block;
     margin-top: 20px;
@@ -79,6 +95,7 @@ header {
     font-weight: 600;
     margin: 40px;
 }
+
 .main h3 {
     color: black;
     font-size: 2em;
@@ -88,6 +105,7 @@ header {
     margin-bottom: 40px;
     margin: 40px;
 }
+
 .main-btn {
     color: #000;
     background-color: #32bfee;
@@ -102,11 +120,13 @@ header {
     transition: 0.7s ease;
     margin: 40px;
 }
-.main-btn:hover{
+
+.main-btn:hover {
     color: black;
     background-color: aqua;
     transform: scale(1.1);
 }
+
 .title {
     display: flex;
     justify-content: center;
@@ -114,105 +134,122 @@ header {
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 60px;
-    text-decoration:underline;
+    text-decoration: underline;
 }
- h1{
+
+h1 {
     color: #000;
-    margin: 20px; 
-     font-size: 2em;
+    margin: 20px;
+    font-size: 2em;
 }
-h2{
+
+h2 {
     margin: 20px;
 }
-h2 a{
+
+h2 a {
     color: blue;
     margin: 20px;
 }
-body{
+
+body {
     background: #aac2eb;
     align-items: center;
     min-height: 100vh;
     justify-content: center;
-   }
+}
+
 .flèche {
-     position: fixed;
-     left: 95%;
-     top: 90%;
-     width: 40px;
-     height: 40px;
-     cursor: pointer;
-     transition: all 0.6s ease;
-     pointer-events: none;
-     opacity: 0;
- } 
- .container{
-  position: relative;
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.container {
+    position: relative;
     display: flex;
     justify-content: center;
-    box-align:  center;
+    align-items: center;
     flex-wrap: wrap;
 }
-.container .card{
+
+.container .card {
     position: relative;
     width: 1000px;
     padding: 20px;
     margin: 20px;
     background: white;
     border-radius: 10px;
-     box-shadow: 8px 8px 20px rgba(8, 1, 82, 0.3);
+    box-shadow: 8px 8px 20px rgba(8, 1, 82, 0.3);
 }
-.container .card::before{
+
+.container .card::before {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     border: 20px solid transparent;
-    border: 20px solid #fff;
     border-top: 20px solid rgb(144, 160, 232);
     border-right: 20px solid rgb(144, 160, 232);
 }
-.container .card.active::before{
+
+.container .card.active::before {
     border-top: 20px solid rgb(182, 239, 182);
     border-right: 20px solid rgb(182, 239, 182);
 }
-.container .card .icon{
+
+.container .card .icon {
     margin-bottom: 10px;
 }
-.container .card .icon img{
+
+.container .card .icon img {
     max-width: 90px;
     border-radius: 10px;
 }
-.container .card .content{
+
+.container .card .content {
     position: relative;
     height: 200px;
     overflow: hidden;
 }
-.container .card.active .content{
+
+.container .card.active .content {
     height: auto;
 }
-.container .card .content::before{
+
+.container .card .content::before {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(transparent,#bdd8f5);
+    background: linear-gradient(transparent, #bdd8f5);
 }
-.container .card.active .content::before{
+
+.container .card.active .content::before {
     display: none;
 }
-.container .card .content h3{
+
+.container .card .content h3 {
     color: #000;
     font-size: 1.4em;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.container .card .content p{
+
+.container .card .content p {
     font-weight: 300;
     color: black;
 }
-.container .card .plus{
+
+.container .card .plus {
     position: relative;
     padding: 10px 15px;
     background: rgb(144, 160, 232);
@@ -226,16 +263,20 @@ body{
     font-size: 14px;
     border-radius: 10px;
 }
-.container .card.active .plus{
+
+.container .card.active .plus {
     background: rgb(182, 239, 182);
     color: black;
 }
-.container .card .plus::before{
+
+.container .card .plus::before {
     content: 'Lire Plus';
 }
-.container .card.active .plus::before{
+
+.container .card.active .plus::before {
     content: 'Lire Moins';
 }
+
 img {
     width: 100px;
     height: 100px;
@@ -243,54 +284,63 @@ img {
     float: left;
     margin: 0 20px 5px 0;
 }
-   .contact-container{
+
+.contact-container {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.contact-left{
+
+.contact-left {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 20px;
 }
-.contact-left-title h2{
+
+.contact-left-title h2 {
     font-weight: 600;
     color: blue;
     font-size: 40px;
     margin-bottom: 5px;
 }
-.contact-lenft-title hr{
+
+.contact-left-title hr {
     border: none;
     width: 120px;
     height: 5px;
-    background-color:blue;
+    background-color: blue;
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.contact-inputs{
+
+.contact-inputs {
     width: 400px;
     height: 50px;
-    border:none;
+    border: none;
     outline: none;
     padding-left: 25px;
-    font-weight: 500px;
+    font-weight: 500;
     color: black;
     border-radius: 50px;
 }
-.contact-left textarea{
+
+.contact-left textarea {
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
 }
-.contact-inputs:focus{
+
+.contact-inputs:focus {
     border: 2px solid blue;
 }
-.contact-inputs::placeholder{
+
+.contact-inputs::placeholder {
     color: black;
 }
-.contact-left button{
+
+.contact-left button {
     display: flex;
     align-items: center;
     padding: 15px 30px;
@@ -299,27 +349,32 @@ img {
     gap: 10px;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(270deg,#6ad7d3,#0a17cf);
+    background: linear-gradient(270deg, #6ad7d3, #0a17cf);
     cursor: pointer;
 }
-.contact-left button:hover{
+
+.contact-left button:hover {
     color: black;
 }
-.contact-left button img{
+
+.contact-left button img {
     height: 15px;
 }
-.contact-right img{
+
+.contact-right img {
     width: 400px;
     height: 400px;
 }
-@media (max-width:800px){
-    .contact-inputs{
+
+@media (max-width: 800px) {
+    .contact-inputs {
         width: 80vw;
     }
-    .contact-right{
+    .contact-right {
         display: none;
     }
 }
+
 .footer {
     background-color: #111010;
     color: #32bfee;
@@ -327,58 +382,65 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-title {
     font-size: 1.1em;
     font-weight: 600;
 }
+
 .footer-title span {
     color: white;
 }
-.footer .social-icons a{
+
+.footer .social-icons a {
     font-size: 1.2em;
-    padding: 0 12px 0 ;
+    padding: 0 12px;
     color: #fff;
 }
-.footer .social-icons a:hover{
+
+.footer .social-icons a:hover {
     color: #1cdbd4;
 }
-@media  (max-width:1023px){
-    header{
+
+@media (max-width: 1023px) {
+    header {
         padding: 12px 20px;
     }
-    .navigation a{
+    .navigation a {
         padding-left: 10px;
     }
-    .title{
+    .title {
         font-size: 1.8em;
     }
-    .section{
+    .section {
         padding: 80px 20px;
     }
-    .main-content h2{
+    .main-content h2 {
         font-size: 1em;
     }
-    .main-content h3{
+    .main-content h3 {
         font-size: 1.6em;
     }
-    .content{
+    .content {
         flex-direction: column;
         align-items: center;
     }
 }
-@media (max-width:641px){
-    body{
+
+@media (max-width: 641px) {
+    body {
         font-size: 12px;
     }
-    .main-content h2{
+    .main-content h2 {
         font-size: 0.8em;
     }
-    .main-content h3{
+    .main-content h3 {
         font-size: 1.4em;
     }
 }
-@media (max-width:300px){
-    body{
+
+@media (max-width: 300px) {
+    body {
         font-size: 10px;
     }
 }
