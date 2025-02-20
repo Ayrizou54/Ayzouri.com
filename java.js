@@ -1,4 +1,4 @@
-const fleche = document.querySelector('.fleche'); // Correction du nom de la variable
+const fleche = document.querySelector('.fleche');
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 300) {
@@ -13,6 +13,6 @@ window.addEventListener('scroll', () => {
 fleche.addEventListener('click', () => {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth' // Ajout d'un défilement fluide
+    behavior: 'smooth'
   });
 });
