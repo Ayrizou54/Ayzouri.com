@@ -48,13 +48,12 @@ header {position: fixed;background-color: transparent;top: 0;padding: 15px;width
 .contact-left-title hr { border: none;width: 120px;height: 5px;background-color: blue; border-radius: 10px;margin-bottom: 20px;}
 .contact-inputs {width: 400px;height: 50px;border: none;outline: none;padding-left: 25px; color: black;border-radius: 50px;}
 .contact-left textarea {height: 140px;padding-top: 15px;border-radius: 20px;}
-.contact-inputs:hover,
 .contact-inputs::placeholder {color: black;}
 .contact-inputs:focus {border: 2px solid blue;}
 .contact-left button {display: flex;align-items: center;padding: 15px 30px;font-size: 16px; color: #fff; gap: 10px;border: none;border-radius: 50px;background-color: #6ad7d3;cursor: pointer;}
 .contact-left button:hover {color: black;}
 .contact-left button img {height: 15px;}
-.contact-right img { width: 500px;}
+.contact-right img { width: 400px;height:400px;}
 @media (max-width: 800px) {
     .contact-inputs {width: 40vw;}
     .contact-right { display: none;}}
