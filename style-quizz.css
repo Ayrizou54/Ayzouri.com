@@ -19,7 +19,7 @@ header {position: fixed; background-color: transparent;top: 0;width: 100%; z-ind
 .navigation a:hover {color: white;}
 .main {width: 100%; min-height: 100vh;display: flex;align-items: center;background: url(images/quizz8.png) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
 .main h2 {color: black; font-size: 2em;font-weight: 500;  margin: 20px;}
-.main h2 span {display: inline-block;margin-top: 20px;color: black;font-size: 3emfont-weight: 600; margin: 40px;}
+.main h2 span {display: inline-block;margin-top: 20px;color: black;font-size: 3em;font-weight: 600; margin: 40px;}
 .main-btn {color: #fff;background-color: blue;text-decoration: none;font-size: 1.1em;font-weight: 600;display: inline-block;padding: 0.9375em 2.1875em;letter-spacing: 1px; border-radius: 15px;  margin-bottom: 40px; transition: 0.7s ease;margin: 20px;}
 .main-btn:hover {background-color: aqua; transform: scale(1.1);color: blue;}
 .title {display: flex; justify-content: center;font-size: 2.2em;color: red;font-weight: 800;height: 60px; text-decoration: underline;}
