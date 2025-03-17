@@ -64,8 +64,6 @@ img {width: 100px;height: 100px;border-radius: 10px; margin: 0 20px 5px 0; float
 .footer { background-color: #111010;color: #32bfee; padding: 0.5em;display: flex;justify-content: space-between;}
 .footer-title {font-size: 1.1em;font-weight: 600;}
 .footer-title span {color: white;}
-.footer .social-icons a{font-size: 1.3em; padding: 0 12px 0 ;color: #fff;}
-.footer .social-icons a:hover{color: #6ad7d3;}
 @media screen and (max-width: 400px){
     .container .content{ flex-basis: 100%; }}
 @media  (max-width:1023px){
