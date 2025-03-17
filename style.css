@@ -11,9 +11,12 @@
          url(../webfonts/fa-regular-400.svg#fontawesome) format("svg");}
 .fab, .far {font-weight: 400;}
 * {font-family: 'Poppins', sans-serif;margin: 0; padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
-body {  background: #aac2eb; align-items: center; min-height: 100vh;justify-content: center;}
+body {  background: #e4e7e7; align-items: center; min-height: 100vh;justify-content: center;}
 header {position: fixed;background-color: transparent;top: 0;padding: 15px;width: 100%;z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center;transition: 0.5s ease;}
-.logo {text-decoration: none;color: black;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
+#anime{ width: 1300px; overflow: hidden;} 
+.images{ display: flex; align-items: center; margin: 20px; animation-duration: 25s; animation-name: mesImages; animation-iteration-count: infinite;}
+@keyframes mesImages{0% {transform: translateX(0);}25%{transform: translateX(-1320px); }50%{transform: translateX(-2640px);}75%{ transform: translateX(-3960px);} 100%{ transform: translateX(0);}}
+ .logo{text-decoration: none;color: black;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
 .logo img {position: absolute;margin-top: 5px;margin-left: 5px;}
 .logo span {color: blue;}
 .navigation a {color: rgb(3, 3, 170);text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px;margin-left: 20px;margin-right: 20px;}
