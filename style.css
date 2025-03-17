@@ -63,8 +63,6 @@ header {position: fixed;background-color: transparent;top: 0;padding: 15px;width
 .footer { background-color: #111010;color: #32bfee; padding: 0.5em;display: flex;justify-content: space-between;}
 .footer-title {font-size: 1.1em;font-weight: bold;}
 .footer-title span {color: white;}
-.footer .social-icons a {font-size: 1.3em;padding: 0.75rem;color: #fff;}
-.footer .social-icons a:hover {color: #6ad7d3;}
 @media (max-width: 1023px) {
     header { padding: 12px 20px;}
     .navigation a { padding-left: 10px; }
