@@ -11,14 +11,13 @@
          url(../webfonts/fa-regular-400.svg#fontawesome) format("svg");}
 .fab, .far {font-weight: 400;}
 * {font-family: 'Poppins', sans-serif;margin: 0; padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
-body {  background: #e4e7e7; align-items: center; min-height: 100vh;justify-content: center;}
+body { background:rgb(199, 198, 198) ; align-items: center; min-height: 100vh;justify-content: center;}
 header {position: fixed;background-color: transparent;top: 0;padding: 15px;width: 100%;z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center;transition: 0.5s ease;}
-#anime{ width: 1300px; overflow: hidden;} 
-.images{ display: flex; align-items: center; margin: 20px; animation-duration: 25s; animation-name: mesImages; animation-iteration-count: infinite;}
-@keyframes mesImages{0% {transform: translateX(0);}25%{transform: translateX(-1320px); }50%{transform: translateX(-2640px);}75%{ transform: translateX(-3960px);} 100%{ transform: translateX(0);}}
- .logo{text-decoration: none;color: black;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
+header img {border-radius: 30%;}
+.logo{text-decoration: none;color: black;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
 .logo img {position: absolute;margin-top: 5px;margin-left: 5px;}
-.logo span {color: blue;}
+ .logo img {border-radius: 50%;width: 80px; height: 80px;}
+  .logo span {color: blue;}
 .navigation a {color: rgb(3, 3, 170);text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px;margin-left: 20px;margin-right: 20px;}
 .navigation a:hover {color: aqua;}
 .section {padding: 100px 200px;}
@@ -35,7 +34,7 @@ header {position: fixed;background-color: transparent;top: 0;padding: 15px;width
 .icon {color: #3a6cf4; font-size: 3em;text-align: center;}
 .info { text-align: center;}
 .info h3 {color: #3a6cf4; font-size: 1.5em;font-weight: 700;margin: 10px;}
-.projects {background-color: #e4e7e7;}
+.projects {background-color: #cdcece;}
 .projects .content {margin-top: 30px;}
 .project-card { background-color: #fff;border: 1px solid #fff; min-height: 14em;width: 23em;overflow: hidden;border-radius: 10px;margin: 20px;transition: transform 0.7s ease;box-shadow: 8px 8px 20px rgba(8, 1, 82, 0.3);}
 .project-card:hover { transform: scale(1.1);}
@@ -53,8 +52,8 @@ header {position: fixed;background-color: transparent;top: 0;padding: 15px;width
 .contact-left textarea {height: 140px;padding-top: 15px;border-radius: 20px;}
 .contact-inputs::placeholder {color: black;}
 .contact-inputs:focus {border: 2px solid blue;}
-.contact-left button {display: flex;align-items: center;padding: 15px 30px;font-size: 16px; color: #fff; gap: 10px;border: none;border-radius: 50px;background-color: #6ad7d3;cursor: pointer;}
-.contact-left button:hover {color: black;}
+.contact-left button {display: flex;align-items: center;padding: 15px 30px;font-size: 16px; color: white; gap: 10px;border: none;border-radius: 50px;background-color: blue;cursor: pointer;}
+.contact-left button:hover {color: aqua;}
 .contact-left button img {height: 15px;}
 .contact-right img { width: 400px;height:400px;}
 @media (max-width: 800px) {
