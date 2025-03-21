@@ -21,7 +21,7 @@ header img{border-radius: 30%;}
 .section {padding: 100px 200px;}
 .main { width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/Exercices.jpg) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
 .main div h2 {color: white;font-size: 2em;margin: 30px;font-weight: 500;}
-.main-btn {color: black;background-color: rgb(103, 238, 114);text-decoration: none;font-size: 1.1em;font-weight: 500;display: inline-block;padding: 0.9375em 2.1875em;letter-spacing: 1px;border-radius: 15px; margin-bottom: 40px;transition: 0.7s ease;margin: 20px;}
+.main-btn {color: black;background-color: rgb(103, 238, 114);text-decoration: none;font-size: 0.8em;font-weight: 500;display: inline-block;padding: 0.9375em 2.1875em;letter-spacing: 1px;border-radius: 15px; margin-bottom: 40px;transition: 0.7s ease;margin: 20px;}
 .main-btn:hover {background-color: aqua;transform: scale(1.1);color: black;}
 .title {display: flex;justify-content: center; font-size: 2.5em;margin: 100px;color: red;height: 60px;text-decoration: underline;}
 p {margin: 20px;font-size: 1.5em;}
