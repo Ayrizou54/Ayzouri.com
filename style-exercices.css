@@ -12,14 +12,13 @@
 .fab, .far {font-weight: 400;}
 * { font-family: 'Poppins', sans-serif; margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
 header {position: fixed;background-color: transparent;top: 0;padding: 15px;width: 100%; z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center;transition: 0.5s ease;}
-header img{border-radius: 30%;}
 .logo {text-decoration: none;color: black;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
 .logo img {position: absolute;margin-top: 5px;margin-left: 5px;}
 .logo span {color: aqua;}
 .navigation a {color: black;text-decoration: none;font-size: 1.5em;font-weight: 600; padding-left: 30px;margin-left: 20px;margin-right: 20px;}
 .navigation a:hover { color:aqua;}
 .section {padding: 100px 200px;}
-.main { width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/Exercices.jpg) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
+.main { width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/exercices.jpg) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
 .main div h2 {color: white;font-size: 2em;margin: 30px;font-weight: 500;}
 .main-btn {color: black;background-color: rgb(103, 238, 114);text-decoration: none;font-size: 0.8em;font-weight: 500;display: inline-block;padding: 0.9375em 2.1875em;letter-spacing: 1px;border-radius: 15px; margin-bottom: 40px;transition: 0.7s ease;margin: 20px;}
 .main-btn:hover {background-color: aqua;transform: scale(1.1);color: black;}
