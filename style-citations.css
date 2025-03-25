@@ -12,7 +12,6 @@
 .fab, .far {font-weight: 400;}
 * {font-family: 'Poppins', sans-serif;margin: 0;padding: 0;box-sizing: border-box;}
 header {position: fixed;background-color: transparent;top: 0;width: 100%;z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center;transition: 0.5s ease;}
-header img{border-radius: 30%;}
 .logo {text-decoration: none;color: white;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
 .logo img {position: absolute;margin-top: 5px;margin-left: 5px;}
 .logo span {color: aqua;}
