@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../webfonts/fa-regular-400.eot);
+    src: url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),
+         url(../webfonts/fa-regular-400.woff2) format("woff2"),
+         url(../webfonts/fa-regular-400.woff) format("woff"),
+         url(../webfonts/fa-regular-400.ttf) format("truetype"),
+         url(../webfonts/fa-regular-400.svg#fontawesome) format("svg");}
+.fab, .far {font-weight: 400;}
+* { font-family: 'Poppins', sans-serif; margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
+header {position: fixed;background-color: transparent;top: 0;padding: 15px;width: 100%; z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center;transition: 0.5s ease;}
+header img{border-radius: 30%;}
+.logo {text-decoration: none;color: black;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
+.logo img {position: absolute;margin-top: 5px;margin-left: 5px;}
+.logo span {color: aqua;}
+.navigation a {color: black;text-decoration: none;font-size: 1.5em;font-weight: 600; padding-left: 30px;margin-left: 20px;margin-right: 20px;}
+.navigation a:hover { color:aqua;}
+.section {padding: 100px 200px;}
+.main { width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/exercices.jpg) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
+.main div h2 {color: black;font-size: 2em;margin: 40px;font-weight: 600;}
+.main-btn {color: white;background-color:rgb(12, 12, 32);text-decoration: none;font-size: 1em;font-weight: 500;display: inline-block;padding: 0.9375em 2.1875em;letter-spacing: 1px;border-radius: 15px; margin-bottom: 40px;transition: 0.7s ease;margin: 20px;}
+.main-btn:hover {background-color: aqua;transform: scale(1.1);color: black;}
+.title {display: flex;justify-content: center; font-size: 2.5em;margin: 100px;color: red;height: 60px;text-decoration: underline;}
+p {margin: 20px;font-size: 1.5em;}
+h2 {margin: 20px;}
+h2 a {color: blue;margin: 20px;}
+body {font-family: Arial, Helvetica, sans-serif;background: rgb(225, 225, 225);align-items: center;min-height: 100vh;justify-content: center;}
+.flèche {position: fixed;left: 95%;top: 90%;width: 40px;height: 40px;cursor: pointer; transition: all 0.6s ease;pointer-events: none;opacity: 0;}
+.contact-container{ height: 100vh; display: flex;align-items: center; justify-content: space-evenly;}
+.contact-left{display: flex;flex-direction: column;align-items: start;gap: 18px;}
+.contact-left-title h2{ font-weight: 600;color: blue;font-size: 40px;margin-bottom: 5px;}
+.contact-lenft-title hr{border: none;width: 120px;height: 5px;background-color:blue;border-radius: 10px;margin-bottom: 20px;}
+.contact-inputs{width: 400px;height: 50px;border:none;outline: none;padding-left: 25px;font-weight: 500;color: black;border-radius: 50px;}
+.contact-left textarea{height: 140px;padding-top: 15px;border-radius: 20px;}
+.contact-inputs:focus{ border: 2px solid blue;}
+.contact-inputs::placeholder{ color: black;}
+.contact-left button{display: flex; align-items: center; padding: 15px 30px;font-size: 16px;color: #fff; gap: 10px; border: none; border-radius: 30px; background: linear-gradient(270deg,#6ad7d3,#0a17cf);cursor: pointer;}
+.contact-left button:hover{ color: black;}
+.contact-left button img{height: 15px;}
+.contact-right img{width: 400px;height: 400px;}
+@media (max-width:800px){
+    .contact-inputs{ width: 80vw;}
+    .contact-right{ display: none; }}
+.footer { background-color: #111010;color: #32bfee; padding: 0.5em;display: flex;justify-content: space-between;}
+.footer-title {font-size: 1.1em;font-weight: 600;}
+.footer-title span {color: white;}
+@media screen and (max-width: 400px){
+    .container .content{ flex-basis: 100%; }}
+@media  (max-width:1024px){
+    header{ padding: 12px 20px; }
+    .navigation a{ padding-left: 10px; }
+    .title{font-size: 1.8em; }
+    .section{padding: 80px 20px;}
+    .main-content h2{ font-size: 1em; }
+    .main-content h3{font-size: 1.6em; }
+    .content{flex-direction: column;align-items: center;}}
+@media (max-width:641px){
+    body{font-size: 12px; }
+    .main-content h2{font-size: 0.8em;}
+    .main-content h3{font-size: 1.4em;}}
+@media (max-width:300px){
+    body{font-size: 10px; }}
