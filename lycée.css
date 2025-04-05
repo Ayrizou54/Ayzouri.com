@@ -19,7 +19,7 @@ header img{border-radius: 30%;}
 .navigation a {color: black;text-decoration: none;font-size: 1.5em;font-weight: 600; padding-left: 30px;margin-left: 20px;margin-right: 20px;}
 .navigation a:hover { color:aqua;}
 .section {padding: 100px 200px;}
-.main { width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/exercices.jpg) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
+.main { width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/lycée.png) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
 .main div h2 {color: black;font-size: 2em;margin: 40px;font-weight: 600;}
 .main-btn {color: white;background-color:rgb(12, 12, 32);text-decoration: none;font-size: 1em;font-weight: 500;display: inline-block;padding: 0.9375em 2.1875em;letter-spacing: 1px;border-radius: 15px; margin-bottom: 40px;transition: 0.7s ease;margin: 20px;}
 .main-btn:hover {background-color: aqua;transform: scale(1.1);color: black;}
