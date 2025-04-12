@@ -12,16 +12,15 @@
 .fab, .far {font-weight: 400}
 * {font-family: 'Poppins', sans-serif;margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
 header { position: fixed;background-color: transparent;top: 0;padding: 15px;width: 100%;z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center; transition: 0.5s ease;}
-header img{border-radius: 35%;}
+header img{border-radius: 30%;}
 .logo {text-decoration: none;color: blue;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
 .logo img {position: absolute;margin-top: 5px;margin-left: 5px;}
 .logo span {color: black;}
-.navigation a {color: blue;text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px; margin-right: 20px;}
-.navigation a:hover {color: black;}
+.navigation a {color: blacke;text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px; margin-right: 20px;}
+.navigation a:hover {color: aqua;}
 .main  {width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/eau2.jpg) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
-.main h2 {color: white;font-size: 1.2em;font-weight: 500;margin: 20px;}
+.main h2 {color: black;font-size: 1.2em;font-weight: 500;margin: 20px;}
 .main h2 span {display: inline-block;margin-top: 20px;color: #000;font-size: 3em;font-weight: 600;margin: 40px;}
-.main h3 {color: black;font-size: 2em;font-weight: 600;letter-spacing: 4px;margin-top: 40px;margin-bottom: 40px; margin: 40px;}
 .title {display: flex;justify-content: center;color: red;font-size: 2.2em;font-weight: 800;margin-bottom: 60px;text-decoration: underline;}
 h2 { margin: 20px;}
 h2 a {color: blue;margin: 20px;}
