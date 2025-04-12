@@ -19,7 +19,7 @@ header img{border-radius: 30%;}
 .logo span{color: black;}
 .navigation a { color: black; text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px;  margin-right: 20px;}
 .navigation a:hover {color: aqua;}
-.main {width: 100%; min-height: 100vh;display: flex;align-items: center;background: url(images/quiz.jpg) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
+.main {width: 100%; min-height: 100vh;display: flex;align-items: center;background: url(images/quiz.png) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
 .main h2 {color: black; font-size: 2em;font-weight: 500;  margin: 20px;}
 .main h2 span {display: inline-block;margin-top: 20px;color: black;font-size: 3em;font-weight: 600; margin: 40px;}
 .title {display: flex; justify-content: center;font-size: 2.2em;color: red;font-weight: 800;height: 60px; text-decoration: underline;}
