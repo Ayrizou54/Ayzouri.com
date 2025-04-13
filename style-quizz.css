@@ -16,8 +16,8 @@ header img{border-radius: 30%;}
 .logo {text-decoration: none; color: aqua;text-transform: uppercase; font-weight: bold; font-size: 2em; align-items: center;}
 .logo img { position: absolute; margin-top: 5px; margin-left: 5px;}
 .logo img {border-radius: 50%;width: 80px; height: 80px;}
-.logo span{color: black;}
-.navigation a { color: blue; text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px;  margin-right: 20px;}
+.logo span{color: yellow;}
+.navigation a { color: yellow; text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px;  margin-right: 20px;}
 .navigation a:hover {color: aqua;}
 .main {width: 100%; min-height: 100vh;display: flex;align-items: center;background: url(images/quiz.png) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
 .main h2 {color: black; font-size: 2em;font-weight: 500;  margin: 20px;}
