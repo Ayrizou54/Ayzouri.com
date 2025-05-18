@@ -13,17 +13,17 @@
 * {font-family: 'Poppins', sans-serif;margin: 0; padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
 body { background:rgb(199, 198, 198) ; align-items: center; min-height: 100vh;justify-content: center;}
 header {position: fixed;background-color: transparent;top: 0;padding: 15px;width: 100%;z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center;transition: 0.5s ease;}
-.logo{text-decoration: none;color: black;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
+.logo{text-decoration: none;color: aqua;text-transform: uppercase;font-weight: bold;font-size: 2em;align-items: center;}
 .logo img {position: absolute;margin-top: 5px;margin-left: 5px;}
  .logo img {border-radius: 50%;width: 80px; height: 80px;}
-  .logo span {color: blue;}
-.navigation a {color: rgb(3, 3, 170);text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px;margin-left: 20px;margin-right: 20px;}
+.logo span {color: white;}
+.navigation a {color:yellow;text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px;margin-left: 20px;margin-right: 20px;}
 .navigation a:hover {color: aqua;}
 .section {padding: 100px 200px;}
-.main { width: 100%; min-height: 100vh; display: flex;align-items: center;background: url(images/atome1.png) no-repeat;background-size: cover;background-position: center; background-attachment: fixed;}
-.main h2 {color: black;font-size: 1.5em;font-weight: 500;margin: 30px;}
+.main { width: 100%; min-height: 100vh; display: flex;align-items: center;background: url(images/lampe.jpg) no-repeat;background-size: cover;background-position: center; background-attachment: fixed;}
+.main h2 {color:white;font-size: 1.5em;font-weight: 500;margin: 30px;}
 .main h2 span {display: inline-block; margin-top: 10px; color: blue;font-size: 1.6em;font-weight: 500;}
-.main h3 { color: black;font-size: 1.3em;font-weight: 700;letter-spacing: 1px;margin-top: 10px;margin-bottom: 30px; margin: 10px;}
+.main h3 { color:white;font-size: 1.3em;font-weight: 700;letter-spacing: 1px;margin-top: 10px;margin-bottom: 30px; margin: 10px;}
 .title { display: flex;justify-content: center;color: red;font-size: 2.2em;font-weight: 800;margin-bottom: 60px;text-decoration: underline;}
 .content {display: flex;justify-content: center;flex-direction: row;flex-wrap: wrap;}
 .card {background-color: #fff;width: 21.25em; box-shadow: 0 5px 25px rgba(1, 1, 1, 0.2);border-radius: 10px;padding: 25px;margin: 15px;transition: transform 0.3s ease;}
