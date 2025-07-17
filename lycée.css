@@ -12,11 +12,10 @@
 .fab, .far {font-weight: 400;}
 * { font-family: 'Poppins', sans-serif; margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
 header {position: fixed;background-color: transparent;top: 0;padding: 15px;width: 100%; z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center;transition: 0.5s ease;}
-header img{border-radius: 30%;}
-.logo {text-decoration: none;color: black;text-transform: uppercase;font-weight: bold;font-size:1,2em;align-items: center;}
+.logo {text-decoration: none;color: black;text-transform: uppercase;font-weight: bold;font-size:1.8em;align-items: center;}
 .logo img {position: absolute;margin-top: 5px;margin-left: 5px;}
 .logo span {color: blue;}
-.navigation a {color: black;text-decoration: none;font-size: 1.5em;font-weight: 600; padding-left: 30px;margin-left: 20px;margin-right: 20px;}
+.navigation a {color: black;text-decoration: none;font-size: 1.6em;font-weight: 600; padding-left: 30px;margin-left: 20px;margin-right: 20px;}
 .navigation a:hover { color:aqua;}
 .section {padding: 100px 200px;}
 .main { width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/lycée.png) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
@@ -39,6 +38,11 @@ body {font-family: Arial, Helvetica, sans-serif;background: rgb(225, 225, 225);a
 .contact-left button:hover{ color: black;}
 .contact-left button img{height: 15px;}
 .contact-right img{width: 400px;height: 400px;}
+@media (max-width: 800px) {
+    .flèche { position: fixed;left: 95%; top: 90%; width: 40px;height: 40px;cursor: pointer;transition: all 0.6s ease;pointer-events: none;opacity: 0; }
+    .contact-inputs { width: 40vw; }
+    .contact-right {display: none; }
+}
 @media (max-width:800px){
     .contact-inputs{ width: 80vw;}
     .contact-right{ display: none; }}
