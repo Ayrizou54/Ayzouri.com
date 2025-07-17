@@ -11,13 +11,12 @@
          url(../webfonts/fa-regular-400.svg#fontawesome) format("svg");}
 .fab, .far {font-weight: 400;}
 * {font-family: 'Poppins', sans-serif;margin: 0; padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
-body { background:rgb(199, 198, 198) ; align-items: center; min-height: 100vh;justify-content: center;}
+body { background:rgb(199, 198, 198) ; align-items: center; min-height: 100vh;justify-content: center;display: flex; flex-direction: column;}
 header {position: fixed;background-color: transparent;top: 0;padding: 15px;width: 100%;z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center;transition: 0.5s ease;}
-.logo{text-decoration: none;color: aqua;text-transform: uppercase;font-weight: bold;font-size: 1,2em;align-items: center;}
-.logo img {position: absolute;margin-top: 5px;margin-left: 5px;}
- .logo img {border-radius: 50%;width: 80px; height: 80px;}
+.logo{text-decoration: none;color: aqua;text-transform: uppercase;font-weight: bold;font-size: 1.8em;align-items: center;}
+.logo img {position: absolute;margin-top: 5px;margin-left: 5px;border-radius: 50%;width: 80px; height: 80px;}
 .logo span {color: white;}
-.navigation a {color:yellow;text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px;margin-left: 20px;margin-right: 20px;}
+.navigation a {color:yellow;text-decoration: none;font-size: 2em;font-weight: 600;padding-left: 30px;margin-left: 20px;margin-right: 20px;}
 .navigation a:hover {color: aqua;}
 .section {padding: 100px 200px;}
 .main { width: 100%; min-height: 100vh; display: flex;align-items: center;background: url(images/lampe.jpg) no-repeat;background-size: cover;background-position: center; background-attachment: fixed;}
@@ -54,11 +53,10 @@ header {position: fixed;background-color: transparent;top: 0;padding: 15px;width
 .contact-left button img {height: 15px;}
 .contact-right img { width: 400px;height:400px;}
 @media (max-width: 800px) {
-    .contact-inputs {width: 40vw;}
-    .contact-right { display: none;}}
-.footer { background-color: #111010;color: #32bfee; padding: 0.5em;display: flex;justify-content: space-between;}
-.footer-title {font-size: 1.1em;font-weight: bold;}
-.footer-title span {color: white;}
+    .flèche { position: fixed;left: 95%; top: 90%;width: 40px; height: 40px; cursor: pointer; transition: all 0.6s ease;pointer-events: none;opacity: 0; }
+    .contact-inputs { width: 40vw;}
+    .contact-right {display: none;}
+}
 @media (max-width: 1023px) {
     header { padding: 12px 20px;}
     .navigation a { padding-left: 10px; }
