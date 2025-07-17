@@ -13,12 +13,11 @@
 * {font-family: 'Poppins', sans-serif;margin: 0;padding: 0;box-sizing: border-box; scroll-behavior: smooth;}
 header {position: fixed; background-color: transparent;top: 0;width: 100%; z-index: 1;text-align: center;display: flex;justify-content: space-between;align-items: center;transition: 0.5s ease;}
 header img{border-radius: 30%;}
-.logo {text-decoration: none; color: aqua;text-transform: uppercase; font-weight: bold; font-size: 1,2em; align-items: center;}
-.logo img { position: absolute; margin-top: 5px; margin-left: 5px;}
-.logo img {border-radius: 50%;width: 80px; height: 80px;}
+.logo {text-decoration: none; color: blue;text-transform: uppercase; font-weight: bold; font-size: 1.7em; align-items: center;}
+.logo img {position: absolute;margin-top: 5px;margin-left: 5px;border-radius: 50%; width: 80px; height: 80px;}
 .logo span{color: black;}
-.navigation a { color: black; text-decoration: none;font-size: 1.5em;font-weight: 600;padding-left: 30px;  margin-right: 20px;}
-.navigation a:hover {color: aqua;}
+.navigation a { color: black; text-decoration: none;font-size: 2em;font-weight: 600;padding-left: 30px;  margin-right: 20px;}
+.navigation a:hover {color: blue;}
 .main {width: 100%; min-height: 100vh;display: flex;align-items: center;background: url(images/quiz.png) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
 .main h2 {color: black; font-size: 2em;font-weight: 500;  margin: 20px;}
 .main h2 span {display: inline-block;margin-top: 20px;color: black;font-size: 3em;font-weight: 600; margin: 40px;}
@@ -57,6 +56,11 @@ body {background: #aac2eb;align-items: center;min-height: 100vh;justify-content:
 .contact-left button:hover{ color: black;}
 .contact-left button img{height: 15px;}
 .contact-right img{width: 400px;height: 400px;}
+@media (max-width: 800px) {
+    .flèche { position: fixed;left: 95%; top: 90%;width: 40px; height: 40px; cursor: pointer; transition: all 0.6s ease;pointer-events: none;opacity: 0; }
+    .contact-inputs { width: 40vw;}
+    .contact-right {display: none;}
+}
 @media (max-width:800px){
     .contact-inputs{ width: 80vw;}
     .contact-right{ display: none; }}
