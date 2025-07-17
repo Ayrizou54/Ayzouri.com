@@ -1,0 +1,13 @@
+const flèche= document.querySelector('.flèche');
+window.addEventListener('scroll',()=>{
+    if(window.scrollY > 300){
+        flèche.style.opacity ='1';
+        flèche.style.pointerEvents ='auto';
+      }else{
+        flèche.style.opacity= '0';
+        flèche.style.pointerEvents = 'none'; 
+      }
+      flèche.addEventListener('click',() =>{
+        window.scrollTo(300,0);
+      })
+ })
