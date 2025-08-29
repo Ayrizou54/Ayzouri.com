@@ -19,7 +19,7 @@ header { position: fixed;background-color: transparent;top: 0;padding: 15px;widt
 .navigation a {color: blue;text-decoration: none;font-size: 2em;font-weight: 600;padding-left: 30px; margin-right: 20px;}
 .navigation a:hover {color: aqua;}
 .section {padding: 100px 200px;}
-.main  {width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/program.png) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
+.main  {width: 100%;min-height: 100vh;display: flex;align-items: center;background: url(images/program\ .png) no-repeat;background-size: cover;background-position: center;background-attachment: fixed;}
 .main h2 {color: blue;font-size: 1.5em;font-weight: 500;margin: 30px;}
 .main h2 span {display: inline-block;margin-top: 10px;color: #000;font-size: 1.6em;font-weight: 500;}
 .title {display: flex;justify-content: center; font-size: 2.5em;margin: 100px;color: red;height: 60px;text-decoration: underline;}
@@ -63,3 +63,4 @@ iframe { margin: 20px;}
 @media (max-width: 300px) {
     body { font-size: 10px;}
 }
+
